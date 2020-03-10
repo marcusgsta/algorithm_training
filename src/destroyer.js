@@ -5,7 +5,8 @@ function destroyer(arr) {
     return newArr.filter( ( val ) => {
         if (arr.includes(val)) {
             return false;
-        } else return true;
+        }
+        return true;
     })
   }
 

@@ -1,3 +1,5 @@
+filter:
+    excluded_paths: [__test__/*]
 build:
   nodes:
     coverage:

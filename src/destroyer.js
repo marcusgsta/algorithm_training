@@ -1,13 +1,8 @@
 function destroyer(arr) {
-    let newArr = arguments[0];
-    arr = [...arguments].slice(1, arr.length);
+    args = [...arguments].slice(1);
     
-    return newArr.filter( ( val ) => {
-        if (arr.includes(val)) {
-            return false;
-        }
-        return true;
-    })
+    return arr.filter( ( val ) => 
+    args.includes(val) ? false : true )
   }
 
 

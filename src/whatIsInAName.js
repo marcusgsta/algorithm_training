@@ -1,13 +1,14 @@
 function whatIsInAName(collection, source) {
-    var arr = [];
+    
     // Only change code below this line
   
-    arr = collection.filter( (obj) => {
+    let arr = collection.filter( (obj) => {
       // first check for keys, then for value
       return Object.keys(source).every( (key) => {
         if (obj.hasOwnProperty(key)) {
           return obj[key] !== source[key] ? false : true;
         } 
+        return false;
       })
     });
     

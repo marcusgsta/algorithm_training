@@ -1,5 +1,5 @@
 filter:
-    excluded_paths: [__test__/*]
+    excluded_paths: [__test__/*, coverage/*]
 build:
   nodes:
     coverage:

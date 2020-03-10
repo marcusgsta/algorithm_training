@@ -1,12 +1,18 @@
 filter:
     excluded_paths: [__test__/*, coverage/*]
+
+checks:
+    javascript: true
+
 build:
-  nodes:
-    coverage:
-      tests:
+    environment:
+        node: '9.2.0'
+
+    tests:
         override:
-          - command: npm test
-            coverage:
-              file: coverage/clover.xml   # <- Set this to where we find the coverage data.
-                                          #    The path is relative to the current directory.
-              format: clover
+            -
+                #command: 'istanbul cover --report clover test.js'
+                command: 'npm test'
+                coverage:
+                    file: 'coverage/clover.xml'
+                    format: 'clover'

@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1583835565468" clover="3.2.0">
-  <project timestamp="1583835565468" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5" elements="32" coveredelements="32" complexity="0" loc="21" ncloc="21" packages="1" files="3" classes="3"/>
+<coverage generated="1584895047118" clover="3.2.0">
+  <project timestamp="1584895047118" name="All files">
+    <metrics statements="75" coveredstatements="75" conditionals="28" coveredconditionals="28" methods="14" coveredmethods="14" elements="117" coveredelements="117" complexity="0" loc="75" ncloc="75" packages="1" files="9" classes="9"/>
     <file name="destroyer.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/destroyer.js">
-      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <line num="2" count="2" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="5" count="2" type="stmt"/>
-      <line num="6" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="12" type="stmt"/>
-      <line num="8" count="5" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="diffTwoArrays.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/diffTwoArrays.js">
       <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
@@ -20,6 +17,42 @@
       <line num="6" count="18" type="stmt"/>
       <line num="8" count="8" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="fearNotLetter.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/fearNotLetter.js">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="4" count="4" type="stmt"/>
+      <line num="5" count="40" type="stmt"/>
+      <line num="6" count="40" type="cond" truecount="4" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
+    <file name="smallestCommons.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/smallestCommons.js">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="9" count="6059456" type="stmt"/>
+      <line num="10" count="6059456" type="stmt"/>
+      <line num="13" count="6417895" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="6059452" type="stmt"/>
+      <line num="15" count="6059452" type="stmt"/>
+      <line num="17" count="358443" type="stmt"/>
+      <line num="20" count="6059456" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="6059452" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+    <file name="sortedUnion.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/sortedUnion.js">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="6" count="6" type="stmt"/>
+      <line num="7" count="18" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
     </file>
     <file name="sumAll.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/sumAll.js">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -31,6 +64,45 @@
       <line num="8" count="19" type="stmt"/>
       <line num="10" count="4" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="sumFibs.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/sumFibs.js">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="5" count="5" type="stmt"/>
+      <line num="6" count="5" type="stmt"/>
+      <line num="7" count="65" type="stmt"/>
+      <line num="8" count="65" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="61" type="stmt"/>
+      <line num="10" count="61" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+    <file name="sumPrimes.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/sumPrimes.js">
+      <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="9" count="1961" type="stmt"/>
+      <line num="10" count="1961" type="stmt"/>
+      <line num="12" count="1593812" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="3588" type="stmt"/>
+      <line num="14" count="3588" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1961" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="334" type="stmt"/>
+      <line num="22" count="331" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+    </file>
+    <file name="whatIsInAName.js" path="/Users/marcusgustafsson/programming_tests/FCC_with_unit_tests/src/whatIsInAName.js">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="8" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
